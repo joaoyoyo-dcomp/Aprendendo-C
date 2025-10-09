@@ -1,0 +1,12 @@
+Comando úteis para usar no terminal/powershell
+
+pwd -> printa o caminho do diretório (pasta atual);
+
+ls -> serve para listas as pastas e arquivos do diretório presente;
+
+cd -> serve para mudar o diretório utilizado;
+
+code . -> abre o visualcode studio na pasta atual;
+
+gcc <nome-do-arquivo>.c -> compila/atualiza o programa em ./a.exe ou ./a.out;
+gcc <nome-do-arquivo>.c -o <novo-nome> -> troca o nome do compilador;
