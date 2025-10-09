@@ -1,0 +1,15 @@
+#include <stdio.h> -> é o cabeçalho do programa. stdio.h é o nome da biblioteca que utilizamos aqui em C (printf por exemplo é chamada assim)
+
+int main() -> assinatura da função. É a função principal e por ela que o programa começa a ser executado. A função "main" retorna um inteiro
+{ -> escopo da função
+printf("Hello, World\n"); -> isso aqui é o que chamamos de corpo da função main, o trecho do código onde tudo vai funcionar.
+return 0; -> retorno da função main.
+}
+
+sintaxe -> regras que devem ser seguidas para escrever na linguagem
+
+semântica -> lógica 
+
+No debug são evidenciados os erros de sintaxe
+
+O que é um compilador? É um programa que pega um arquivo de texto e o transforma em um programa executável
