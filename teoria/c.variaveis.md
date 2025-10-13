@@ -4,7 +4,7 @@ Variável -> formado por 4 partes. Tipo, nome, valor (conteúdo), endereço.
   Uma variável é uma região da memória (endereço), identificada por um nome, interpretada de acordo com um tipo, e que armazena um valor (conteúdo).
 
 ## tipo | formato | tamanho | descrição | exemplo
-:-----:|:------:|:-----:|:------:|:-----:
+:---|---|---|---|---:
 char | %c | 1 | caractere | "L"
 int | %d | 4 | inteiro | 2025
 float | %f | 4 | real | 3.14
