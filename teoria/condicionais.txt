@@ -1,0 +1,22 @@
+Estrutura do comando if-else
+  Um else sempre deve estar acompanhado de um if
+
+if(condição){
+  comando;
+  comando;
+}
+else{
+  comando;
+  comando;
+}
+Else if = um comando intermediário entre o if e o else
+
+Em C, temos os seguintes operadores lógicos:
+&& (e);
+||(ou);
+!(não);
+Em C, temos os seguintes operadores relacionais:
+> (maior que), >= (maior igual);
+< (menor que), <= (menor igual);
+== (igual);
+!= (diferente);
