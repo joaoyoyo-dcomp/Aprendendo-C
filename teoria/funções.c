@@ -23,3 +23,11 @@ int main(){
   printf("retorno = %d\n", retorno);
   return 0;
 }
+
+/*
+Observações:
+Em c, funções devem ser declaradas antes da função main
+Funções podem receber nenhum parâmetro
+Funções podem retornar nada (dizemos que é void)
+Função que recebe nada e retorna nada são chamadas de procedimento
+*/
