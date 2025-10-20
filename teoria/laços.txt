@@ -1,0 +1,35 @@
+Laços while e do while -> repetição com condição de parada indeterminada;
+É um laço (loop) que não é controlado por um contador, mas sim por uma condição de parada;
+-> o bloco do código ele se repete enquanto uma condição for verdadeira;
+-> o laço termina no momento em que a condição for falsa;
+
+Laço while
+Testa a condição PRIMEIRO
+Se a condição for verdadeira, executa o bloco de código
+Volta para o passo 1
+Se a condição for falsa, pula o bloco específico e volta a programar
+
+Laço infinito
+Sem incremento, a condição nunca se altera. O laço nunca para e isso causa um loop infinito
+#include <stdio.h>
+int main() {
+int i = 1;
+while (i <= 5){
+printf("%d\n", i);
+}
+return 0;
+}
+
+Laço do While
+Similar ao while, mas aqui executa o bloco do código pelo menos uma vez e só depois testa a condição. 
+Ideal para menus e validação de entrada, onde uma ação precisa ocorrer antes da checagem
+#include <stdio.h>
+int main() {
+int opcao;
+do { printf("Digite 0 para sair:\n"};
+scanf("%d", &opcao);
+} 
+while (opcao != 0);
+printf("programa finalizado\n");
+return 0;
+}
