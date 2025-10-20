@@ -1,0 +1,15 @@
+Sobre Entrada e Saída de programas
+
+Printf -> Exibe uma mensagem formatada no terminal
+Scanf -> Escaneia uma mensagem formatada no terminal
+
+Sintaxe do printf
+printf("Formato", argumentos);
+-> formato é uma string que pode conter máscaras (%d)
+-> argumentos são as variáveis a serem exibidas pelas máscaras
+
+Sintaxe do scanf
+scanf("formato", &argumentos);
+-> formato é uma string que contém as máscaras
+-> &argumentos são os endereços das variáveis que terão valores modificados
+
