@@ -3,6 +3,8 @@ Variável -> formado por 4 partes. Tipo, nome, valor (conteúdo), endereço.
 
   Uma variável é uma região da memória (endereço), identificada por um nome, interpretada de acordo com um tipo, e que armazena um valor (conteúdo).
 
+No C, não existe o tipo booleano, utilizando o sistema de 0 e 1 para isso. Se for zero, é falso, se for um, é verdadeiro
+
 |## tipo | formato | tamanho | descrição | exemplo |
 | :---|---|---|---|---: |
 | char | %c | 1 | caractere | "L" |
